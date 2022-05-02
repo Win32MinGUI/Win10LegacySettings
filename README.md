@@ -5,12 +5,13 @@ A simple utility which provides quick accessing on the legacy features on Window
 
 
 - Various settings integrated into one single HTML application
-- Quick switch on LAN proxy server settings
 - Minimize to system tray
 - Various namespace switches of "This PC/My Computer"
 - The TrayHook part is heavily influenced by the [RBTray] project
 - The keyboard handling is from [OpenJS]
 
+- Quick switch on LAN proxy server settings (F5 to refresh page)
+![Alt Text](https://github.com/Win32MinGUI/Win10LegacySettings/raw/main/Preview/LANProxySwitch.gif)
 
 - Win10LegacySettingsLauncher command line options examples
 ```
