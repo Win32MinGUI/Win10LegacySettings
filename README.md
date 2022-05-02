@@ -12,15 +12,15 @@ A simple utility which provides quick accessing on the legacy features on Window
 - The keyboard handling is from [OpenJS]
 
 
-- Launcher command line options
+- Win10LegacySettingsLauncher command line options examples
 ```
 When no previous instances exist:
-  Win10LegacySettingsLauncher.exe										Launch the Win10LegacySettings HTML Application
-  Win10LegacySettingsLauncher.exe --minimize-after-milliseconds 4000	Launch the Win10LegacySettings HTML Application and minimize it to tray after 4 seconds
-* 
+  Win10LegacySettingsLauncher.exe                                     Launch the Win10LegacySettings HTML Application
+  Win10LegacySettingsLauncher.exe --minimize-after-milliseconds 4000  Launch the Win10LegacySettings HTML Application and minimize it to tray after 4 seconds
+
 When previous instance already exists:
-  Win10LegacySettingsLauncher.exe										Bring the existing Win10LegacySettings HTML Application to the front
-  Win10LegacySettingsLauncher.exe --minimize							Send message to the TrayManagerDummyWindow and minimize the existing Win10LegacySettings HTML Application to tray
+  Win10LegacySettingsLauncher.exe                                     Bring the existing Win10LegacySettings HTML Application to the front
+  Win10LegacySettingsLauncher.exe --minimize                          Send message and minimize the existing Win10LegacySettings HTML Application to tray
 ```
 
 [RBTray]: <http://rbtray.sourceforge.net/>
